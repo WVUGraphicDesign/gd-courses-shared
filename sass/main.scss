@@ -1,0 +1,607 @@
+@import 'fonts';
+@import 'media';
+@import 'colors';
+@import 'utilities';
+@import 'presentmode';
+$spacer: 1rem;
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+#changeMode {
+  background: #808080;
+  border: none;
+  padding: .5rem 1rem;
+  color: $bg;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  @media(max-width: $md) {
+    display: none;
+  }
+}
+
+
+.fas {
+font-size: 1em;
+margin-left: 0.5rem;
+color: $highlight;
+}
+
+
+
+
+
+.hide {
+  display: none !important;
+}
+// @media print {
+//   .pagebreak {
+//     page-break-before: always;
+//   }
+// }
+
+.self-note {
+  display: none;
+  background-color: $highlight-two;
+  padding: 1rem;
+  list-style: none;
+  margin: 1rem 0;
+  font-style: italic;
+}
+@page {
+  margin: 15mm;
+}
+
+.note {
+  width: 100%;
+  float: left;
+  font-style: italic;
+  padding: 2rem 0 1rem;
+  display: none;
+  @media print {
+    display: block;
+
+    br {
+      display: block !important;
+    }
+  }
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 40px;
+  color: #e3e3e3;
+
+  &:hover {
+    color: #808080;
+  }
+  @media print {
+    display: none;
+  }
+}
+
+body {
+  font-family: $sans-serif;
+  margin: $spacer 0;
+  font-size: 17px;
+}
+
+#date {
+  float: left;
+  color: #fff;
+  background-color: $highlight;
+  padding: 10px;
+  margin-right: 2em;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+  @media(min-width: 580px) {
+    margin-bottom: 0;
+  }
+
+  i {
+    padding: 0 5px;
+  }
+}
+
+.office-hours {
+  color: $primary-gray;
+  font-style: italic;
+  margin: 5px 0 10px;
+  display: inline-block;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: $spacer*2;
+  @media (min-width: $md) {
+    width: 67%;
+  }
+  @media print {
+    width: 95%;
+  }
+}
+
+nav {
+  width: 100%;
+  float: left;
+  padding-bottom: $spacer;
+  margin-bottom: $spacer;
+  border-bottom: 1px dotted $blk;
+
+  ul {
+    display: grid;
+    float: left;
+    grid-auto-flow: column;
+    grid-column-gap: $spacer;
+    @media(min-width: 580px) {
+      float: right;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: $blk;
+
+    &.active {
+      color: $highlight;
+      text-decoration: underline;
+    }
+  }
+  @media print {
+    display: none;
+  }
+}
+
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: $spacer*2;
+  @media (min-width: $md) {
+    grid-template-columns: 1fr 4fr;
+  }
+  @media print {
+    grid-template-columns: 1fr 4fr;
+  }
+}
+
+aside {
+  display: grid;
+  grid-auto-rows: minmax(min-content, max-content);
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: $spacer;
+  @media(min-width: 992px) {
+    grid-template-columns: 1fr;
+  }
+
+  .controls {
+    button {
+      background: transparent;
+      display: block;
+      width: 100%;
+      text-align: left;
+      border: none;
+      display: block;
+      padding-left: 0;
+      margin-bottom: $spacer/2;
+
+      &:hover {
+        color: $highlight;
+        cursor: pointer;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  a {
+    color: $blk;
+
+    &:hover {
+      color: $highlight;
+    }
+  }
+
+  span {
+    display: block;
+    font-family: $sans-serif;
+    font-size: 0.85rem;
+    margin: 1rem 0 0.5rem;
+    font-weight: bold;
+  }
+  @media print {
+    font-size: 9pt;
+  }
+}
+
+article {
+  line-height: 1.5;
+
+  .intro {
+    font-size: 1.1em;
+  }
+
+  .schedule & {
+    grid-column: 1/3;
+
+    header {
+      display: grid;
+      grid-auto-flow: column;
+    }
+
+    .online {
+      float: right;
+
+      &::before {
+        content: "";
+        margin-right: 8px;
+        float: left;
+        width: 30px;
+        height: 30px;
+        background-color: $online-blue;
+      }
+    }
+  }
+
+  h1 {
+    background: $blk;
+    padding: $spacer/2 $spacer;
+    color: $bg;
+    width: fit-content;
+
+    .schedule & {
+      text-transform: uppercase;
+      background: $blk;
+      border: 2px solid $blk;
+      color: $bg;
+      padding: $spacer/10;
+      @media(min-width: $md) {
+        padding: 0 $spacer/2 0 0;
+      }
+    }
+
+    span {
+      font-weight: normal;
+
+      .schedule & {
+        display: block;
+        background: $bg;
+        color: $blk;
+        padding: 0 $spacer/2;
+        @media (min-width: $md) {
+          display: inline-block;
+          margin-right: $spacer/3;
+        }
+      }
+    }
+    @media print {
+      color: $blk !important;
+      background: transparent;
+      border: 1px solid $blk;
+    }
+  }
+
+  p {
+    @media print {
+      font-size: 9pt !important;
+    }
+  }
+
+  br {
+    @media print {
+      display: none;
+    }
+  }
+
+  section {
+    position: relative;
+    padding: 1rem 0;
+    border-bottom: 1px solid $blk;
+    @media print {
+      padding: 0.75rem 0;
+    }
+
+    p {
+      @media print {
+        &:not(:nth-child(2)) {
+          margin-top: 0.5rem;
+        }
+      }
+    }
+
+    &.vir {
+      background-color: $online-blue;
+    }
+
+    .schedule & {
+      display: grid;
+      padding-left: $spacer/2;
+      grid-template-columns: 1fr 0.25fr 2fr;
+      grid-column-gap: $spacer;
+
+      .to-do {
+        color: $highlight;
+      }
+
+      .code {
+        margin-top: 1rem;
+        list-style: none;
+        display: block;
+
+        pre {
+          white-space: pre-line;
+        }
+
+        button {
+          background: transparent;
+          border: 1px solid $highlight;
+          padding: 0.45rem 1rem 0.55rem;
+          color: $highlight;
+          width: fit-content;
+          font-size: 1rem;
+          font-family: $sans-serif;
+
+          i {
+            margin: 0.25rem 0 0 0.35rem;
+            transform: rotate(0deg);
+          }
+
+          &:focus {
+            outline: none;
+            background-color: $highlight;
+            color: #fff;
+          }
+
+          &:hover {
+            background-color: $highlight;
+            color: #fff;
+            cursor: pointer;
+          }
+
+          &.active {
+            i {
+              transform: rotate(180deg);
+            }
+
+            + .code-snippet {
+              display: block;
+            }
+          }
+        }
+
+        .code-snippet {
+          display: none;
+          font-size: 0.9em;
+          padding: 1rem;
+          background: lighten($highlight, 50%);
+          margin-left: 0;
+          color: #000;
+        }
+      }
+      // .quiz-3 {
+      //   position: relative;
+      //   &:after {
+      //     content: "quiz-3";
+      //     position: absolute;
+      //     margin-top: 2px;
+      //     margin-left: 10px;
+      //     font-size: 12px;
+      //     color: $blk;
+      //     width: 50px;
+      //     height: 16px;
+      //     border-radius: 10px;
+      //     text-align:center;
+      //     padding-bottom: 3px;
+      //     border: .5px solid $primary-gray;
+      //     background-color: yellow;
+      //   }
+      // }
+      .cancel {
+        text-decoration: line-through;
+      }
+
+      a {
+        color: $highlight;
+
+        &:hover {
+          color: blue;
+
+          i {
+            color: $highlight;
+          }
+        }
+
+        i {
+          font-size: 0.9rem;
+          color: #808080;
+          margin-left: 0.25rem;
+          @media print {
+            display: none;
+          }
+        }
+      }
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    h2 {
+      font-size: $spacer;
+      padding-bottom: $spacer/2;
+
+      .schedule & {
+        grid-column: 1/3;
+        @media (min-width: $md) {
+          grid-column: 1;
+        }
+      }
+      @media print {
+        font-size: 9pt;
+      }
+    }
+
+    ol {
+      list-style-type: decimal;
+
+      li {
+        margin-left: 16px;
+      }
+      @media print {
+        font-size: 9pt;
+      }
+    }
+
+    ul {
+      list-style-type: disc;
+
+      .schedule & {
+        grid-column: 1/4;
+        @media (min-width: $md) {
+          grid-column: 3;
+        }
+      }
+
+      li {
+        margin-left: 16px;
+
+        .schedule & {
+          &.res {
+            margin-top: $spacer;
+            list-style: none;
+            width: fit-content;
+            // float:left;
+            a {
+              border: 1px solid $highlight;
+              padding: $spacer/3 $spacer;
+              text-decoration: none;
+              display: block;
+
+              &:hover {
+                background-color: $highlight;
+                color: $bg;
+              }
+            }
+          }
+        }
+
+        ul {
+          list-style-type: circle;
+        }
+      }
+
+      &.upper-alpha {
+        list-style-type: upper-alpha;
+      }
+      @media print {
+        font-size: 9pt;
+      }
+    }
+
+    a {
+      word-break: break-all;
+      @media print {
+        font-size: 9pt;
+      }
+    }
+
+    .day {
+      font-size: 0.85em;
+      color: $primary-gray;
+      @media print {
+        font-size: 9pt;
+        float: right;
+      }
+    }
+
+    .month {
+      display: none;
+      @media (min-width: 992px) {
+        display: block;
+        position: absolute;
+        transform: rotate(-90deg);
+        top: 25px;
+        left: -65px;
+        font-size: 1rem;
+        color: lighten($primary-gray, 20%);
+        text-transform: uppercase;
+        text-align: right;
+      }
+    }
+  }
+
+  .gallery {
+    margin-top: $spacer*2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: $spacer/2;
+    @media(min-width: $md) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    a {
+      display: block;
+      color: $blk;
+      text-decoration: none;
+
+      &:hover {
+        color: $highlight;
+      }
+    }
+
+    &.tuts {
+      grid-template-columns: 1fr 1fr;
+
+      > li {
+        position: relative;
+        font-family: Helvetica, $sans-serif;
+        // text-transform: uppercase;
+        // font-weight: bold;
+        font-size: 1.2rem;
+        @media(min-width: $md) {
+          font-size: 1.7rem;
+        }
+        line-height: 1.2;
+        background-color: $highlight-two;
+
+        a {
+          display: block;
+          background-color: $highlight-two;
+          padding: $spacer;
+          @media(min-width: $md) {
+            padding: $spacer*2;
+          }
+        }
+
+        .tags {
+          width: 100%;
+          bottom: 0;
+          background-color: $highlight-two;
+          padding: 0 $spacer*2 $spacer*2;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          text-transform: lowercase;
+          font-weight: normal;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
