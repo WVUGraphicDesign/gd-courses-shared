@@ -1,131 +1,131 @@
-/* line 4, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_fonts.scss */
+/* line 4, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_fonts.scss */
 .text-left {
   text-align: left !important;
 }
 
-/* line 8, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_fonts.scss */
+/* line 8, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_fonts.scss */
 .text-right {
   text-align: right !important;
 }
 
-/* line 12, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_fonts.scss */
+/* line 12, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_fonts.scss */
 .text-center {
   text-align: center !important;
 }
 
-/* line 1, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_utilities.scss */
+/* line 1, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_utilities.scss */
 .w-100 {
   width: 100%;
 }
 
-/* line 5, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_utilities.scss */
+/* line 5, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_utilities.scss */
 .w-80 {
   width: 80%;
 }
 
-/* line 9, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_utilities.scss */
+/* line 9, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_utilities.scss */
 .w-60 {
   width: 60%;
 }
 
-/* line 13, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_utilities.scss */
+/* line 13, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_utilities.scss */
 .w-40 {
   width: 40%;
 }
 
-/* line 17, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_utilities.scss */
+/* line 17, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_utilities.scss */
 .center {
   display: block;
   margin: 0 auto;
 }
 
-/* line 22, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_utilities.scss */
+/* line 22, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_utilities.scss */
 .auto-height {
   height: auto !important;
 }
 
-/* line 1, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 1, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .pm {
   display: none;
 }
 
-/* line 5, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 5, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .present-mode {
   background-color: #fefdf4;
 }
 
-/* line 7, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 7, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .present-mode #changeMode {
   background: #CEECC6;
   color: #000;
 }
 
-/* line 13, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 13, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .present-mode .pm {
   display: block !important;
 }
 
-/* line 17, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 17, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .present-mode img.pm {
   margin-top: 2rem;
 }
 
-/* line 20, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 20, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .present-mode nav {
   display: none;
 }
 
-/* line 24, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 24, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .present-mode .grid {
   grid-template-columns: 1fr;
 }
 
-/* line 28, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 28, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .present-mode aside {
   height: 100vh;
   grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 1fr;
   grid-gap: 50px;
 }
 
-/* line 32, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 32, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .present-mode aside h1 {
   font-size: 13.5rem;
   grid-column: 1/7;
   margin-bottom: 20%;
 }
 
-/* line 37, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 37, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .present-mode aside section {
   font-size: 1.7rem;
 }
 
-/* line 43, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 43, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .present-mode article section {
   height: 100vh;
 }
 
-/* line 45, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 45, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .present-mode article section p, .present-mode article section ul, .present-mode article section ol, .present-mode article section a {
   font-size: 2rem;
 }
 
-/* line 49, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 49, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .present-mode article section h2 {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
 
-/* line 52, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 52, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .present-mode article section h2.main {
   font-size: 10rem;
 }
 
-/* line 57, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 57, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .present-mode article section .em {
   color: #ec008c;
 }
 
-/* line 61, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 61, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .present-mode article section .table {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -133,12 +133,12 @@
   grid-gap: 2rem;
 }
 
-/* line 66, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 66, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .present-mode article section .table ul {
   font-size: .85em;
 }
 
-/* line 71, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 71, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .present-mode article section .image-grid {
   width: 70%;
   list-style: none;
@@ -149,37 +149,38 @@
   margin-top: 5rem;
 }
 
-/* line 79, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 79, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .present-mode article section .image-grid img {
   width: 100%;
   display: block;
   margin-bottom: 12px;
 }
 
-/* line 85, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 85, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .present-mode article section .image-grid li {
   font-size: .7em;
   margin: 0 !important;
 }
 
-/* line 92, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/_presentmode.scss */
+/* line 92, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/_presentmode.scss */
 .present-mode article section iframe.showcase {
   margin-top: 5vh;
   width: 100%;
   height: 95vh;
 }
 
-/* line 8, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 8, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 html {
   scroll-behavior: smooth;
+  background-color: yellow;
 }
 
-/* line 12, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 13, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 17, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 18, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 #changeMode {
   background: #808080;
   border: none;
@@ -192,25 +193,25 @@ html {
 }
 
 @media (max-width: 992px) {
-  /* line 17, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 18, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   #changeMode {
     display: none;
   }
 }
 
-/* line 32, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 33, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .fas {
   font-size: 1em;
   margin-left: 0.5rem;
   color: #ec008c;
 }
 
-/* line 42, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 43, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .hide {
   display: none !important;
 }
 
-/* line 51, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 52, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .self-note {
   display: none;
   background-color: #CEECC6;
@@ -224,7 +225,7 @@ html {
   margin: 15mm;
 }
 
-/* line 63, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 64, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .note {
   width: 100%;
   float: left;
@@ -234,17 +235,17 @@ html {
 }
 
 @media print {
-  /* line 63, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 64, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .note {
     display: block;
   }
-  /* line 72, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 73, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .note br {
     display: block !important;
   }
 }
 
-/* line 78, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 79, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .scroll-top {
   position: fixed;
   bottom: 30px;
@@ -253,26 +254,26 @@ html {
   color: #e3e3e3;
 }
 
-/* line 85, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 86, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .scroll-top:hover {
   color: #808080;
 }
 
 @media print {
-  /* line 78, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 79, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .scroll-top {
     display: none;
   }
 }
 
-/* line 93, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 94, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 body {
   font-family: "Source Sans Pro", sans-serif;
   margin: 1rem 0;
   font-size: 17px;
 }
 
-/* line 99, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 100, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 #date {
   float: left;
   color: #fff;
@@ -284,18 +285,18 @@ body {
 }
 
 @media (min-width: 580px) {
-  /* line 99, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 100, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   #date {
     margin-bottom: 0;
   }
 }
 
-/* line 111, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 112, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 #date i {
   padding: 0 5px;
 }
 
-/* line 116, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 117, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .office-hours {
   color: #808080;
   font-style: italic;
@@ -303,7 +304,7 @@ body {
   display: inline-block;
 }
 
-/* line 123, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 124, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .container {
   width: 80%;
   margin: 0 auto;
@@ -311,20 +312,20 @@ body {
 }
 
 @media (min-width: 992px) {
-  /* line 123, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 124, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .container {
     width: 67%;
   }
 }
 
 @media print {
-  /* line 123, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 124, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .container {
     width: 95%;
   }
 }
 
-/* line 135, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 136, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 nav {
   width: 100%;
   float: left;
@@ -333,7 +334,7 @@ nav {
   border-bottom: 1px dotted #000;
 }
 
-/* line 142, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 143, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 nav ul {
   display: grid;
   float: left;
@@ -342,32 +343,32 @@ nav ul {
 }
 
 @media (min-width: 580px) {
-  /* line 142, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 143, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   nav ul {
     float: right;
   }
 }
 
-/* line 152, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 153, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 nav a {
   text-decoration: none;
   color: #000;
 }
 
-/* line 156, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 157, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 nav a.active {
   color: #ec008c;
   text-decoration: underline;
 }
 
 @media print {
-  /* line 135, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 136, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   nav {
     display: none;
   }
 }
 
-/* line 166, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 167, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .grid {
   width: 100%;
   display: grid;
@@ -376,20 +377,20 @@ nav a.active {
 }
 
 @media (min-width: 992px) {
-  /* line 166, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 167, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .grid {
     grid-template-columns: 1fr 4fr;
   }
 }
 
 @media print {
-  /* line 166, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 167, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .grid {
     grid-template-columns: 1fr 4fr;
   }
 }
 
-/* line 179, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 180, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 aside {
   display: grid;
   grid-auto-rows: minmax(min-content, max-content);
@@ -398,13 +399,13 @@ aside {
 }
 
 @media (min-width: 992px) {
-  /* line 179, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 180, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   aside {
     grid-template-columns: 1fr;
   }
 }
 
-/* line 189, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 190, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 aside .controls button {
   background: transparent;
   display: block;
@@ -416,28 +417,28 @@ aside .controls button {
   margin-bottom: 0.5rem;
 }
 
-/* line 199, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 200, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 aside .controls button:hover {
   color: #ec008c;
   cursor: pointer;
 }
 
-/* line 204, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 205, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 aside .controls button:focus {
   outline: none;
 }
 
-/* line 210, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 211, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 aside a {
   color: #000;
 }
 
-/* line 213, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 214, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 aside a:hover {
   color: #ec008c;
 }
 
-/* line 218, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 219, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 aside span {
   display: block;
   font-family: "Source Sans Pro", sans-serif;
@@ -447,39 +448,39 @@ aside span {
 }
 
 @media print {
-  /* line 179, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 180, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   aside {
     font-size: 9pt;
   }
 }
 
-/* line 230, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 231, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article {
   line-height: 1.5;
 }
 
-/* line 233, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 234, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article .intro {
   font-size: 1.1em;
 }
 
-/* line 237, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 238, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article {
   grid-column: 1/3;
 }
 
-/* line 240, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 241, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article header {
   display: grid;
   grid-auto-flow: column;
 }
 
-/* line 245, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 246, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article .online {
   float: right;
 }
 
-/* line 248, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 249, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article .online::before {
   content: "";
   margin-right: 8px;
@@ -489,7 +490,7 @@ article .intro {
   background-color: #c6f0ff;
 }
 
-/* line 259, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 260, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article h1 {
   background: #000;
   padding: 0.5rem 1rem;
@@ -497,7 +498,7 @@ article h1 {
   width: fit-content;
 }
 
-/* line 265, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 266, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article h1 {
   text-transform: uppercase;
   background: #000;
@@ -507,18 +508,18 @@ article h1 {
 }
 
 @media (min-width: 992px) {
-  /* line 265, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 266, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .schedule article h1 {
     padding: 0 0.5rem 0 0;
   }
 }
 
-/* line 276, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 277, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article h1 span {
   font-weight: normal;
 }
 
-/* line 279, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 280, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article h1 span {
   display: block;
   background: #fff;
@@ -527,7 +528,7 @@ article h1 span {
 }
 
 @media (min-width: 992px) {
-  /* line 279, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 280, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .schedule article h1 span {
     display: inline-block;
     margin-right: 0.33333rem;
@@ -535,7 +536,7 @@ article h1 span {
 }
 
 @media print {
-  /* line 259, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 260, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article h1 {
     color: #000 !important;
     background: transparent;
@@ -544,20 +545,20 @@ article h1 span {
 }
 
 @media print {
-  /* line 297, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 298, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article p {
     font-size: 9pt !important;
   }
 }
 
 @media print {
-  /* line 303, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 304, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article br {
     display: none;
   }
 }
 
-/* line 309, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 310, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section {
   position: relative;
   padding: 1rem 0;
@@ -565,25 +566,25 @@ article section {
 }
 
 @media print {
-  /* line 309, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 310, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article section {
     padding: 0.75rem 0;
   }
 }
 
 @media print {
-  /* line 319, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 320, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article section p:not(:nth-child(2)) {
     margin-top: 0.5rem;
   }
 }
 
-/* line 325, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 326, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section.vir {
   background-color: #c6f0ff;
 }
 
-/* line 329, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 330, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section {
   display: grid;
   padding-left: 0.5rem;
@@ -591,24 +592,24 @@ article section.vir {
   grid-column-gap: 1rem;
 }
 
-/* line 335, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 336, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .to-do {
   color: #ec008c;
 }
 
-/* line 339, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 340, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .code {
   margin-top: 1rem;
   list-style: none;
   display: block;
 }
 
-/* line 344, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 345, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .code pre {
   white-space: pre-line;
 }
 
-/* line 348, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 349, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .code button {
   background: transparent;
   border: 1px solid #ec008c;
@@ -619,37 +620,37 @@ article section.vir {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-/* line 357, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 358, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .code button i {
   margin: 0.25rem 0 0 0.35rem;
   transform: rotate(0deg);
 }
 
-/* line 362, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 363, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .code button:focus {
   outline: none;
   background-color: #ec008c;
   color: #fff;
 }
 
-/* line 368, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 369, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .code button:hover {
   background-color: #ec008c;
   color: #fff;
   cursor: pointer;
 }
 
-/* line 375, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 376, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .code button.active i {
   transform: rotate(180deg);
 }
 
-/* line 379, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 380, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .code button.active + .code-snippet {
   display: block;
 }
 
-/* line 385, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 386, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .code .code-snippet {
   display: none;
   font-size: 0.9em;
@@ -659,27 +660,27 @@ article section.vir {
   color: #000;
 }
 
-/* line 412, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 413, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .cancel {
   text-decoration: line-through;
 }
 
-/* line 416, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 417, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section a {
   color: #ec008c;
 }
 
-/* line 419, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 420, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section a:hover {
   color: blue;
 }
 
-/* line 422, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 423, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section a:hover i {
   color: #ec008c;
 }
 
-/* line 427, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 428, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section a i {
   font-size: 0.9rem;
   color: #808080;
@@ -687,89 +688,89 @@ article section.vir {
 }
 
 @media print {
-  /* line 427, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 428, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .schedule article section a i {
     display: none;
   }
 }
 
-/* line 438, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 439, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section:last-child {
   border-bottom: none;
 }
 
-/* line 442, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 443, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section h2 {
   font-size: 1rem;
   padding-bottom: 0.5rem;
 }
 
-/* line 446, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 447, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section h2 {
   grid-column: 1/3;
 }
 
 @media (min-width: 992px) {
-  /* line 446, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 447, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .schedule article section h2 {
     grid-column: 1;
   }
 }
 
 @media print {
-  /* line 442, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 443, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article section h2 {
     font-size: 9pt;
   }
 }
 
-/* line 457, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 458, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section ol {
   list-style-type: decimal;
 }
 
-/* line 460, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 461, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section ol li {
   margin-left: 16px;
 }
 
 @media print {
-  /* line 457, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 458, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article section ol {
     font-size: 9pt;
   }
 }
 
-/* line 468, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 469, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section ul {
   list-style-type: disc;
 }
 
-/* line 471, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 472, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section ul {
   grid-column: 1/4;
 }
 
 @media (min-width: 992px) {
-  /* line 471, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 472, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .schedule article section ul {
     grid-column: 3;
   }
 }
 
-/* line 478, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 479, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section ul li {
   margin-left: 16px;
 }
 
-/* line 482, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 483, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section ul li.res {
   margin-top: 1rem;
   list-style: none;
   width: fit-content;
 }
 
-/* line 487, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 488, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section ul li.res a {
   border: 1px solid #ec008c;
   padding: 0.33333rem 1rem;
@@ -777,62 +778,62 @@ article section ul li {
   display: block;
 }
 
-/* line 493, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 494, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section ul li.res a:hover {
   background-color: #ec008c;
   color: #fff;
 }
 
-/* line 501, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 502, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section ul li ul {
   list-style-type: circle;
 }
 
-/* line 506, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 507, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section ul.upper-alpha {
   list-style-type: upper-alpha;
 }
 
 @media print {
-  /* line 468, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 469, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article section ul {
     font-size: 9pt;
   }
 }
 
-/* line 514, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 515, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section a {
   word-break: break-all;
 }
 
 @media print {
-  /* line 514, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 515, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article section a {
     font-size: 9pt;
   }
 }
 
-/* line 521, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 522, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section .day {
   font-size: 0.85em;
   color: #808080;
 }
 
 @media print {
-  /* line 521, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 522, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article section .day {
     font-size: 9pt;
     float: right;
   }
 }
 
-/* line 530, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 531, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section .month {
   display: none;
 }
 
 @media (min-width: 992px) {
-  /* line 530, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 531, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article section .month {
     display: block;
     position: absolute;
@@ -846,7 +847,7 @@ article section .month {
   }
 }
 
-/* line 546, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 547, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article .gallery {
   margin-top: 2rem;
   display: grid;
@@ -855,35 +856,35 @@ article .gallery {
 }
 
 @media (min-width: 992px) {
-  /* line 546, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 547, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article .gallery {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-/* line 555, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 556, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article .gallery img {
   width: 100%;
 }
 
-/* line 559, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 560, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article .gallery a {
   display: block;
   color: #000;
   text-decoration: none;
 }
 
-/* line 564, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 565, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article .gallery a:hover {
   color: #ec008c;
 }
 
-/* line 569, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 570, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article .gallery.tuts {
   grid-template-columns: 1fr 1fr;
 }
 
-/* line 572, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 573, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article .gallery.tuts > li {
   position: relative;
   font-family: Helvetica, "Source Sans Pro", sans-serif;
@@ -893,13 +894,13 @@ article .gallery.tuts > li {
 }
 
 @media (min-width: 992px) {
-  /* line 572, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 573, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article .gallery.tuts > li {
     font-size: 1.7rem;
   }
 }
 
-/* line 584, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 585, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article .gallery.tuts > li a {
   display: block;
   background-color: #CEECC6;
@@ -907,13 +908,13 @@ article .gallery.tuts > li a {
 }
 
 @media (min-width: 992px) {
-  /* line 584, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+  /* line 585, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article .gallery.tuts > li a {
     padding: 2rem;
   }
 }
 
-/* line 593, ../../../../../Users/kofiopoku/Google Drive/adv-324/sass/main.scss */
+/* line 594, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article .gallery.tuts > li .tags {
   width: 100%;
   bottom: 0;
