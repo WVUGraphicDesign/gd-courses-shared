@@ -172,15 +172,14 @@
 /* line 8, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 html {
   scroll-behavior: smooth;
-  background-color: yellow;
 }
 
-/* line 13, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 12, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 18, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 17, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 #changeMode {
   background: #808080;
   border: none;
@@ -193,25 +192,25 @@ html {
 }
 
 @media (max-width: 992px) {
-  /* line 18, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 17, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   #changeMode {
     display: none;
   }
 }
 
-/* line 33, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 32, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .fas {
   font-size: 1em;
   margin-left: 0.5rem;
   color: #ec008c;
 }
 
-/* line 43, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 42, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .hide {
   display: none !important;
 }
 
-/* line 52, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 51, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .self-note {
   display: none;
   background-color: #CEECC6;
@@ -225,7 +224,7 @@ html {
   margin: 15mm;
 }
 
-/* line 64, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 63, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .note {
   width: 100%;
   float: left;
@@ -235,17 +234,17 @@ html {
 }
 
 @media print {
-  /* line 64, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 63, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .note {
     display: block;
   }
-  /* line 73, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 72, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .note br {
     display: block !important;
   }
 }
 
-/* line 79, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 78, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .scroll-top {
   position: fixed;
   bottom: 30px;
@@ -254,26 +253,26 @@ html {
   color: #e3e3e3;
 }
 
-/* line 86, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 85, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .scroll-top:hover {
   color: #808080;
 }
 
 @media print {
-  /* line 79, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 78, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .scroll-top {
     display: none;
   }
 }
 
-/* line 94, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 93, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 body {
   font-family: "Source Sans Pro", sans-serif;
   margin: 1rem 0;
   font-size: 17px;
 }
 
-/* line 100, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 99, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 #date {
   float: left;
   color: #fff;
@@ -285,18 +284,18 @@ body {
 }
 
 @media (min-width: 580px) {
-  /* line 100, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 99, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   #date {
     margin-bottom: 0;
   }
 }
 
-/* line 112, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 111, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 #date i {
   padding: 0 5px;
 }
 
-/* line 117, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 116, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .office-hours {
   color: #808080;
   font-style: italic;
@@ -304,7 +303,7 @@ body {
   display: inline-block;
 }
 
-/* line 124, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 123, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .container {
   width: 80%;
   margin: 0 auto;
@@ -312,20 +311,20 @@ body {
 }
 
 @media (min-width: 992px) {
-  /* line 124, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 123, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .container {
     width: 67%;
   }
 }
 
 @media print {
-  /* line 124, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 123, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .container {
     width: 95%;
   }
 }
 
-/* line 136, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 135, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 nav {
   width: 100%;
   float: left;
@@ -334,7 +333,7 @@ nav {
   border-bottom: 1px dotted #000;
 }
 
-/* line 143, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 142, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 nav ul {
   display: grid;
   float: left;
@@ -343,32 +342,32 @@ nav ul {
 }
 
 @media (min-width: 580px) {
-  /* line 143, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 142, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   nav ul {
     float: right;
   }
 }
 
-/* line 153, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 152, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 nav a {
   text-decoration: none;
   color: #000;
 }
 
-/* line 157, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 156, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 nav a.active {
   color: #ec008c;
   text-decoration: underline;
 }
 
 @media print {
-  /* line 136, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 135, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   nav {
     display: none;
   }
 }
 
-/* line 167, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 166, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .grid {
   width: 100%;
   display: grid;
@@ -377,20 +376,20 @@ nav a.active {
 }
 
 @media (min-width: 992px) {
-  /* line 167, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 166, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .grid {
     grid-template-columns: 1fr 4fr;
   }
 }
 
 @media print {
-  /* line 167, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 166, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .grid {
     grid-template-columns: 1fr 4fr;
   }
 }
 
-/* line 180, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 179, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 aside {
   display: grid;
   grid-auto-rows: minmax(min-content, max-content);
@@ -399,13 +398,13 @@ aside {
 }
 
 @media (min-width: 992px) {
-  /* line 180, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 179, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   aside {
     grid-template-columns: 1fr;
   }
 }
 
-/* line 190, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 189, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 aside .controls button {
   background: transparent;
   display: block;
@@ -417,28 +416,28 @@ aside .controls button {
   margin-bottom: 0.5rem;
 }
 
-/* line 200, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 199, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 aside .controls button:hover {
   color: #ec008c;
   cursor: pointer;
 }
 
-/* line 205, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 204, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 aside .controls button:focus {
   outline: none;
 }
 
-/* line 211, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 210, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 aside a {
   color: #000;
 }
 
-/* line 214, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 213, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 aside a:hover {
   color: #ec008c;
 }
 
-/* line 219, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 218, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 aside span {
   display: block;
   font-family: "Source Sans Pro", sans-serif;
@@ -448,39 +447,39 @@ aside span {
 }
 
 @media print {
-  /* line 180, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 179, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   aside {
     font-size: 9pt;
   }
 }
 
-/* line 231, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 230, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article {
   line-height: 1.5;
 }
 
-/* line 234, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 233, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article .intro {
   font-size: 1.1em;
 }
 
-/* line 238, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 237, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article {
   grid-column: 1/3;
 }
 
-/* line 241, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 240, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article header {
   display: grid;
   grid-auto-flow: column;
 }
 
-/* line 246, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 245, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article .online {
   float: right;
 }
 
-/* line 249, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 248, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article .online::before {
   content: "";
   margin-right: 8px;
@@ -490,7 +489,7 @@ article .intro {
   background-color: #c6f0ff;
 }
 
-/* line 260, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 259, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article h1 {
   background: #000;
   padding: 0.5rem 1rem;
@@ -498,7 +497,7 @@ article h1 {
   width: fit-content;
 }
 
-/* line 266, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 265, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article h1 {
   text-transform: uppercase;
   background: #000;
@@ -508,18 +507,18 @@ article h1 {
 }
 
 @media (min-width: 992px) {
-  /* line 266, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 265, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .schedule article h1 {
     padding: 0 0.5rem 0 0;
   }
 }
 
-/* line 277, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 276, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article h1 span {
   font-weight: normal;
 }
 
-/* line 280, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 279, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article h1 span {
   display: block;
   background: #fff;
@@ -528,7 +527,7 @@ article h1 span {
 }
 
 @media (min-width: 992px) {
-  /* line 280, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 279, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .schedule article h1 span {
     display: inline-block;
     margin-right: 0.33333rem;
@@ -536,7 +535,7 @@ article h1 span {
 }
 
 @media print {
-  /* line 260, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 259, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article h1 {
     color: #000 !important;
     background: transparent;
@@ -545,20 +544,20 @@ article h1 span {
 }
 
 @media print {
-  /* line 298, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 297, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article p {
     font-size: 9pt !important;
   }
 }
 
 @media print {
-  /* line 304, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 303, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article br {
     display: none;
   }
 }
 
-/* line 310, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 309, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section {
   position: relative;
   padding: 1rem 0;
@@ -566,25 +565,25 @@ article section {
 }
 
 @media print {
-  /* line 310, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 309, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article section {
     padding: 0.75rem 0;
   }
 }
 
 @media print {
-  /* line 320, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 319, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article section p:not(:nth-child(2)) {
     margin-top: 0.5rem;
   }
 }
 
-/* line 326, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 325, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section.vir {
   background-color: #c6f0ff;
 }
 
-/* line 330, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 329, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section {
   display: grid;
   padding-left: 0.5rem;
@@ -592,24 +591,24 @@ article section.vir {
   grid-column-gap: 1rem;
 }
 
-/* line 336, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 335, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .to-do {
   color: #ec008c;
 }
 
-/* line 340, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 339, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .code {
   margin-top: 1rem;
   list-style: none;
   display: block;
 }
 
-/* line 345, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 344, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .code pre {
   white-space: pre-line;
 }
 
-/* line 349, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 348, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .code button {
   background: transparent;
   border: 1px solid #ec008c;
@@ -620,37 +619,37 @@ article section.vir {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-/* line 358, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 357, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .code button i {
   margin: 0.25rem 0 0 0.35rem;
   transform: rotate(0deg);
 }
 
-/* line 363, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 362, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .code button:focus {
   outline: none;
   background-color: #ec008c;
   color: #fff;
 }
 
-/* line 369, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 368, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .code button:hover {
   background-color: #ec008c;
   color: #fff;
   cursor: pointer;
 }
 
-/* line 376, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 375, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .code button.active i {
   transform: rotate(180deg);
 }
 
-/* line 380, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 379, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .code button.active + .code-snippet {
   display: block;
 }
 
-/* line 386, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 385, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .code .code-snippet {
   display: none;
   font-size: 0.9em;
@@ -660,27 +659,27 @@ article section.vir {
   color: #000;
 }
 
-/* line 413, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 412, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section .cancel {
   text-decoration: line-through;
 }
 
-/* line 417, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 416, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section a {
   color: #ec008c;
 }
 
-/* line 420, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 419, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section a:hover {
   color: blue;
 }
 
-/* line 423, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 422, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section a:hover i {
   color: #ec008c;
 }
 
-/* line 428, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 427, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section a i {
   font-size: 0.9rem;
   color: #808080;
@@ -688,89 +687,89 @@ article section.vir {
 }
 
 @media print {
-  /* line 428, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 427, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .schedule article section a i {
     display: none;
   }
 }
 
-/* line 439, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 438, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section:last-child {
   border-bottom: none;
 }
 
-/* line 443, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 442, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section h2 {
   font-size: 1rem;
   padding-bottom: 0.5rem;
 }
 
-/* line 447, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 446, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section h2 {
   grid-column: 1/3;
 }
 
 @media (min-width: 992px) {
-  /* line 447, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 446, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .schedule article section h2 {
     grid-column: 1;
   }
 }
 
 @media print {
-  /* line 443, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 442, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article section h2 {
     font-size: 9pt;
   }
 }
 
-/* line 458, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 457, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section ol {
   list-style-type: decimal;
 }
 
-/* line 461, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 460, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section ol li {
   margin-left: 16px;
 }
 
 @media print {
-  /* line 458, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 457, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article section ol {
     font-size: 9pt;
   }
 }
 
-/* line 469, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 468, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section ul {
   list-style-type: disc;
 }
 
-/* line 472, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 471, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section ul {
   grid-column: 1/4;
 }
 
 @media (min-width: 992px) {
-  /* line 472, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 471, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   .schedule article section ul {
     grid-column: 3;
   }
 }
 
-/* line 479, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 478, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section ul li {
   margin-left: 16px;
 }
 
-/* line 483, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 482, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section ul li.res {
   margin-top: 1rem;
   list-style: none;
   width: fit-content;
 }
 
-/* line 488, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 487, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section ul li.res a {
   border: 1px solid #ec008c;
   padding: 0.33333rem 1rem;
@@ -778,62 +777,62 @@ article section ul li {
   display: block;
 }
 
-/* line 494, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 493, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 .schedule article section ul li.res a:hover {
   background-color: #ec008c;
   color: #fff;
 }
 
-/* line 502, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 501, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section ul li ul {
   list-style-type: circle;
 }
 
-/* line 507, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 506, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section ul.upper-alpha {
   list-style-type: upper-alpha;
 }
 
 @media print {
-  /* line 469, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 468, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article section ul {
     font-size: 9pt;
   }
 }
 
-/* line 515, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 514, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section a {
   word-break: break-all;
 }
 
 @media print {
-  /* line 515, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 514, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article section a {
     font-size: 9pt;
   }
 }
 
-/* line 522, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 521, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section .day {
   font-size: 0.85em;
   color: #808080;
 }
 
 @media print {
-  /* line 522, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 521, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article section .day {
     font-size: 9pt;
     float: right;
   }
 }
 
-/* line 531, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 530, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article section .month {
   display: none;
 }
 
 @media (min-width: 992px) {
-  /* line 531, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 530, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article section .month {
     display: block;
     position: absolute;
@@ -847,7 +846,7 @@ article section .month {
   }
 }
 
-/* line 547, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 546, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article .gallery {
   margin-top: 2rem;
   display: grid;
@@ -856,35 +855,35 @@ article .gallery {
 }
 
 @media (min-width: 992px) {
-  /* line 547, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 546, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article .gallery {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-/* line 556, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 555, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article .gallery img {
   width: 100%;
 }
 
-/* line 560, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 559, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article .gallery a {
   display: block;
   color: #000;
   text-decoration: none;
 }
 
-/* line 565, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 564, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article .gallery a:hover {
   color: #ec008c;
 }
 
-/* line 570, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 569, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article .gallery.tuts {
   grid-template-columns: 1fr 1fr;
 }
 
-/* line 573, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 572, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article .gallery.tuts > li {
   position: relative;
   font-family: Helvetica, "Source Sans Pro", sans-serif;
@@ -894,13 +893,13 @@ article .gallery.tuts > li {
 }
 
 @media (min-width: 992px) {
-  /* line 573, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 572, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article .gallery.tuts > li {
     font-size: 1.7rem;
   }
 }
 
-/* line 585, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 584, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article .gallery.tuts > li a {
   display: block;
   background-color: #CEECC6;
@@ -908,13 +907,13 @@ article .gallery.tuts > li a {
 }
 
 @media (min-width: 992px) {
-  /* line 585, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+  /* line 584, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
   article .gallery.tuts > li a {
     padding: 2rem;
   }
 }
 
-/* line 594, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
+/* line 593, ../../../../../Volumes/GoogleDrive/My Drive/gd-courses-shared/sass/main.scss */
 article .gallery.tuts > li .tags {
   width: 100%;
   bottom: 0;
